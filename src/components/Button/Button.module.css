@@ -1,0 +1,54 @@
+.primaryBtn{
+    padding: 18px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    cursor:pointer;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+
+}
+.outlineBtn{
+    padding: 18px 10px;
+    border: 1px solid black;
+    color: Black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    cursor:pointer;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+
+}  
+  /* Primary button style */
+  .primaryBtn {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Outline button style */
+  .outlineBtn {
+    border: 1px solid black;
+    background-color: white;
+  }  
+  .primaryBtn:hover {
+    background-color: #333; /* Darken the background color on hover */
+    transform: scale(1.1);
+  }
+  
+  .outlineBtn:hover {
+    color: white; /* Change text color on hover */
+    background-color: black; /* Change background color on hover */
+    border-color: transparent;
+    transform: scale(1.1);
+  }
